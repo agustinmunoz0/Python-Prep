@@ -7,14 +7,15 @@
 
 # In[7]:
 
-
+num = 10
+print (num)
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
 
-
+type (8.5)
 
 
 
@@ -22,7 +23,7 @@
 
 # In[8]:
 
-
+print(type(num))
 
 
 
@@ -30,7 +31,7 @@
 
 # In[2]:
 
-
+usuario = 'Agustin'
 
 
 # 5) Crear una variable que contenga un número complejo
@@ -38,13 +39,13 @@
 # In[3]:
 
 
-
+var = 5 + 4j
 
 
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
 
 # In[4]:
-
+print (type(var))
 
 
 
@@ -62,13 +63,16 @@ pi = 3.1416
 # In[3]:
 
 
-
+val1 = 'True'
+val2 = True
 
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
 
+print (type(val1))
+print (type(val2))
 
 
 
@@ -77,7 +81,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+suma = 5 + 4.5
 
 
 
@@ -86,7 +90,9 @@ pi = 3.1416
 # In[2]:
 
 
-
+a = 5 + 9j
+b = 4 + 3j
+print (a + b)
 
 
 # 12) Realizar una operación de suma de un número real y otro complejo
@@ -94,14 +100,15 @@ pi = 3.1416
 # In[4]:
 
 
-
+h = a + 5.3
+print (h) 
 
 
 # 13) Realizar una operación de multiplicación
 
 # In[5]:
 
-
+print (5*20) 
 
 
 
@@ -110,29 +117,29 @@ pi = 3.1416
 # In[6]:
 
 
-
+print (2**8)
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
 
+div = (27/4)
 
-
-
+print (div)
 
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
 
 
-
+print (27//4)
 
 
 # 17) De la división de 27 entre 4 mostrar solamente el resto
 
 # In[1]:
 
-
+print (27%4)
 
 
 
@@ -140,7 +147,7 @@ pi = 3.1416
 
 # In[2]:
 
-
+6 * 4 + 3
 
 
 
@@ -148,14 +155,15 @@ pi = 3.1416
 
 # In[3]:
 
-
-
+vap1 = "Hola"
+vap2 = "Mundo"
+print (vap1 + vap2)
 
 
 # 20) Evaluar si "2" es igual a 2. ¿Por qué ocurre eso?
 
 # In[4]:
-
+"2" == 2 
 
 
 
@@ -164,7 +172,7 @@ pi = 3.1416
 
 # In[11]:
 
-
+2 = int("2")
 
 
 
@@ -172,7 +180,7 @@ pi = 3.1416
 
 # In[12]:
 
-
+a = float('3.8')
 
 
 
@@ -181,14 +189,16 @@ pi = 3.1416
 # In[15]:
 
 
-
+a = 3
+a -= 1
+print(a)
 
 
 # 24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
 
 # In[29]:
 
-
+1 << 2 
 
 
 
@@ -196,7 +206,7 @@ pi = 3.1416
 
 # In[23]:
 
-
+2 + '2'
 
 
 
@@ -206,4 +216,6 @@ pi = 3.1416
 # In[30]:
 
 
-
+var1 = 'este texto se repite '
+var2 = 3
+print(var1 * var2 + str(var2) + ' veces')
